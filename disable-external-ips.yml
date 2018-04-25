@@ -2,7 +2,7 @@
 - type: replace
   path: /networks/name=default
   value: 
-  - name: default
+    name: default
     type: manual
     subnets:
     - range: 10.0.0.0/16
@@ -24,7 +24,7 @@
 - type: replace
   path: /networks/name=private
   value: 
-  - name: private
+    name: private
     type: manual
     subnets:
     - range: 10.0.0.0/16

@@ -2,7 +2,7 @@
 - type: replace
   path: /vm_extensions/-
   value: 
-  - name: gerrit-pool
+    name: gerrit-pool
     cloud_properties:
       backend_service: gerrit-router-lb
       tags:

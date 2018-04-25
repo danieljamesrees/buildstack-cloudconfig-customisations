@@ -4,6 +4,6 @@
   value: 
     name: jenkins-pool
     cloud_properties:
-      backend_service: jenkins-router-lb
+      backend_service: buildstack-release-jenkins-router-lb
       tags:
-      - jenkins-router-lb
+      - buildstack-release-jenkins-router-lb

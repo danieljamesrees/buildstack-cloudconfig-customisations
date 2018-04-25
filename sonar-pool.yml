@@ -4,6 +4,6 @@
   value: 
     name: sonar-pool
     cloud_properties:
-      backend_service: sonar-router-lb
+      backend_service: buildstack-release-sonar-router-lb
       tags:
-      - sonar-router-lb
+      - buildstack-release-sonar-router-lb

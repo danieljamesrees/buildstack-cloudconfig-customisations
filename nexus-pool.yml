@@ -4,6 +4,6 @@
   value: 
     name: nexus-pool
     cloud_properties:
-      backend_service: nexus-router-lb
+      backend_service: buildstack-release-nexus-router-lb
       tags:
-      - nexus-router-lb
+      - buildstack-release-nexus-router-lb

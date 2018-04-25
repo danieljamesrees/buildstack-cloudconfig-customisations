@@ -4,6 +4,6 @@
   value: 
     name: gerrit-pool
     cloud_properties:
-      backend_service: gerrit-router-lb
+      backend_service: buildstack-release-gerrit-router-lb
       tags:
-      - gerrit-router-lb
+      - buildstack-release-gerrit-router-lb

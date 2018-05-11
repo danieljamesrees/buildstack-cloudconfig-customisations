@@ -1,9 +1,0 @@
----
-- type: replace
-  path: /vm_extensions/-
-  value: 
-    name: gerrit-pool
-    cloud_properties:
-      backend_service: buildstack-release-gerrit-router-lb
-      tags:
-      - buildstack-release-gerrit-router-lb
